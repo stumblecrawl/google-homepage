@@ -1,0 +1,77 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    
+    border-radius: 5px;
+    border: none ; 
+}
+
+a {
+    padding: 0 3%;
+    margin: 0 !important; 
+    color: rgb(95, 99, 104);
+}
+footer {
+    bottom: 0;
+    height: 35px;
+    position: fixed;
+    width: 100%;
+}
+body {
+    display: block;
+    
+    }
+
+.logo {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    }
+
+#spl {
+    margin-left: 30px;
+}   
+#spr {     
+    margin-right: 30px;
+}
+
+img {
+    height: 92px;
+    width: 272px;
+}
+
+#signin {
+    background-color: rgb(66, 133, 244);
+    color: #fff;
+    font-size: 13px;
+    padding: 6px 12px;
+}
+button {
+padding: 8px 16px;
+}
+
+span {
+    padding-top: 7px;
+}
+
+input {
+    height: 34px;
+    width: 387px;
+    border-radius: 10px;
+}
+/* .left {
+    float: left;;
+}
+.right {
+    float: right;
+} */
+
+/* img {
+    margin: 0 auto;
+} */
