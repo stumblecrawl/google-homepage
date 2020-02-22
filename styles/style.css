@@ -1,69 +1,104 @@
-html, body{
-    height: 100%;
-    margin: 0;
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid #e7e7e7; */
+  /* background-color: #f3f3f3; */
+}
+#top {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: #f3f3f33;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 button {
-    
-    border-radius: 5px;
-    border: none ; 
+  border-radius: 5px;
+  border: none;
 }
-
-a {
-    padding: 0 3%;
-    margin: 0 !important; 
-    color: rgb(95, 99, 104);
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 footer {
-    bottom: 0;
-    height: 35px;
-    position: fixed;
-    width: 100%;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f3f3f3;
 }
 body {
-    display: block;
-    
-    }
-
+  display: block;
+}
 .logo {
-    position: absolute;
-    margin: auto;
-    text-align: center;
-    width: 100%;
-    }
-
-#spl {
-    margin-left: 30px;
-}   
-#spr {     
-    margin-right: 30px;
+    border: none;
+    
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  display: flex;
 }
 
 img {
-    height: 92px;
-    width: 272px;
+  height: 92px;
+  width: 272px;
 }
 
 #signin {
-    background-color: rgb(66, 133, 244);
-    color: #fff;
-    font-size: 13px;
-    padding: 6px 12px;
+  background-color: rgb(66, 133, 244);
+  color: #fff;
+  font-size: 13px;
+  padding-top: -5px;
+  margin-top: 5px;
+}
+
+#bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f3f3f3;
 }
 button {
-padding: 8px 16px;
+  padding: 8px 16px;
 }
 
 span {
-    padding-top: 7px;
+  padding-top: 7px;
 }
 
 input {
-    height: 34px;
-    width: 387px;
-    border-radius: 10px;
+  height: 34px;
+  width: 387px;
+  border-radius: 10px;
 }
 /* .left {
     float: left;;
