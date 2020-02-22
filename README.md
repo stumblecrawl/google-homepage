@@ -8,4 +8,4 @@ I had some struggles with positioning elemnts but finally made it workable.
 
 The analogy I came up with while working on this project is this: Imagine looking at a $5 million home and trying to reproduce it with the crap lumber you have in your yard, a bucket of nails, a hammer, and a hand saw. At the end of the day it's not the same but I managed to put up four walls and a roof.
 
-Todo- Fix top and bottom navbars
+
